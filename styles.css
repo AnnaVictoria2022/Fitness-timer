@@ -1,0 +1,126 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+}
+.headingMainPage{
+    font-size: 80px;
+    color:#fdfd96;
+    text-shadow: 3px 3px 1px black ;
+    font-family: 'Gentium Plus', serif;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.buttons{
+    display: flex;
+    margin-top: 50px;
+}
+.btn{
+    font-size: 40px;
+    font-family: 'Gentium Plus', serif;
+    padding:20px;
+    background:linear-gradient(to right, #f2f4e7, #fdfd96);
+    margin:50px;
+    width:30%;
+}
+.jogContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    height:100vh;
+    width:100%;
+    display:none;
+    position:absolute;
+    top:0;
+}
+.squatContainer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    height:100vh;
+    width:100%;
+    display:none;
+    position:absolute;
+    top:0;
+}
+.kneeContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    height:100vh;
+    width:100%;
+    display:none;
+    position:absolute;
+    top:0;
+}
+.giphy-embed{
+    margin-top: 100px;
+}
+.timer{
+    font-size:40px;
+    font-family: 'Gentium Plus', serif;
+    background:linear-gradient(to right, #f2f4e7, #fdfd96);
+    padding:20px;
+    margin-top: 10px;
+}
+
+@media all and (max-width:1000px){
+    .headingMainPage{
+        font-size: 70px;
+        text-align: center;
+    }
+}
+@media all and (max-width:800px){
+    .headingMainPage{
+        font-size: 60px;
+        text-align: center;
+    }
+.btn{
+    font-size: 30px;
+    padding:10px;
+    margin:30px;
+    width:30%;
+    }
+}
+@media all and (max-width:500px){
+    .headingMainPage{
+        font-size: 50px;
+        text-align: center;
+    }
+.buttons{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.btn{
+    font-size: 25px;
+    padding:20px;
+    margin:20px;
+    width:30%;
+    height:100px;
+    }
+.giphy-embed{
+    margin-top: 60px;
+    }
+}

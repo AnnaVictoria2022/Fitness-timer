@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <div class="heading">
+            <h1 class="headingMainPage">Achieve your fitness goals</h1>
+        </div>
+
+        <div class="container">
+            <div class="buttons">
+                <button class="jog btn">Jog</button>
+                <button class="squat btn">Squats</button>
+                <button class="knee btn">Knee pulls</button>
+            </div>
+
+            <div class="jogContainer video">
+                <audio id="playerJog" src="jog.mp3" autoplay="allowed" loop="loop"></audio>
+                <iframe src="https://giphy.com/embed/742WAzA4iN5dK" width="650" height="450" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p class="jogTimer timer"></p> 
+            </div>
+
+            <div class="squatContainer video">
+                <audio id="playerSquat" src="squat.mp3" autoplay="allowed" loop="loop"></audio>
+                <iframe src="https://giphy.com/embed/BiRPeUAsJfkIM" width="550" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p class="squatTimer timer"></p> 
+
+            </div>
+            <div class="kneeContainer video">
+                <audio id="playerKnee" src="Knees.mp3" autoplay="allowed" loop="loop"></audio>
+                <iframe src="https://giphy.com/embed/13zWJDoT1Dwjrq" width="550" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p class="kneeTimer timer"></p> 
+            </div>
+        </div>        
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
